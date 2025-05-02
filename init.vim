@@ -155,12 +155,15 @@ let g:vimtex_view_general_viewer = 'skim'
 " let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
 let g:vimtex_quickfix_open_on_warning=0
 set conceallevel=1
+hi Conceal ctermbg=none
 let g:tex_conceal='abdmg'
 let g:vimtex_compiler_progname='/usr/local/bin/nvr'
 
 " let g:livepreview_previewer = 'open -a Skim'
 " let g:livepreview_engine = 'xelatex'
-
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 " easy motion
 let g:EasyMotion_do_mapping = 0 " Disable default mappings

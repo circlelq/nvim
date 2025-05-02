@@ -2,6 +2,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 " Better Syntax Support
 " Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdtree'
+" Plug 'sirver/ultisnips'
 Plug 'preservim/nerdcommenter'
 Plug 'itchyny/lightline.vim'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
@@ -14,7 +15,7 @@ Plug 'tpope/vim-commentary'
 Plug 'mileszs/ack.vim'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'lervag/vimtex'
-Plug 'KeitaNakamura/tex-conceal.vim', {'for': 'tex'} " for VimPlug
+" Plug 'KeitaNakamura/tex-conceal.vim'
 Plug 'honza/vim-snippets'
 Plug 'dense-analysis/ale'
 Plug 'kien/rainbow_parentheses.vim'
@@ -44,5 +45,5 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'obxhdx/vim-auto-highlight'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+"Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end()
